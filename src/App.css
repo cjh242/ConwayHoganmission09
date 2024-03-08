@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.team-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.team-location {
+  color: #555;
+}
